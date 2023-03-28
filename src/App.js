@@ -74,7 +74,7 @@ function Users() {
       {
         users.map(user => <li>{user.name}</li>)
       }
-      <h4>Dynamic Email</h4>
+      {/* <h4>Dynamic Email</h4> */}
       {
         users.map(user => <li>{user.email}</li>)
       }
